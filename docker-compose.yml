@@ -10,7 +10,7 @@ services:
       PLAYER_COUNT_PROVIDER: cftools_cloud
       CFTOOLS_HOSTNAME: 193.25.252.49
       CFTOOLS_PORT: 2402
-      DISCORD_TOKEN: OTk2OTM5MTU5MjcwODYyOTU5.GDdXyn.8dcCLhIsF-YA-c7ACCY1Hjhu2hEscS5Wu07bms
+      #DISCORD_TOKEN: 
       DISCORD_PUBLISHER_MESSAGE_FORMAT: '$${playerCount}/$${maxPlayers} $${queuedPlayersMessage}'
       DISCORD_PUBLISHER_MESSAGE_QUEUED_FORMAT: '(+$${queuedPlayers})'
       # You need more configuration here, look at the Configuration section
