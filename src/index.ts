@@ -55,7 +55,7 @@ class App {
                 reject(error);
             });
             client.on('warn', console.log);
-            echo env.DISCORD_TOKEN;
+            console.log("Disc token: " + process.env.DISCORD_TOKEN;
             client.login(process.env.DISCORD_TOKEN || '');
         });
     }
