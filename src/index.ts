@@ -55,7 +55,7 @@ class App {
                 reject(error);
             });
             client.on('warn', console.log);
-            console.log("Disc token: " + ${discord_token_server_1});
+            console.log("Disc token: " + $discord_token_server_1);
             client.login(process.env.DISCORD_TOKEN || '');
         });
     }
